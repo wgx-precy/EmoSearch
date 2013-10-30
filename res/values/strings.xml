@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Emo Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Emo Search</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="userlogin">login</string>
+    <string name="usersignup">sign up</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="setting">setting</string>
+    <string name="title_activity_preference">PreferenceActivity</string>
+    <string name="level1_food">food</string>
+    <string name="level1_bar">drink</string>
+    <string name="level1_shows">shows</string>
+    <string name="level1_cinema">movie</string>
+    <string name="level1_sports">sport</string>
+    <string name="level1_travel">travel</string>
+    <string name="title_activity_filter">FilterActivity</string>
+
+</resources>

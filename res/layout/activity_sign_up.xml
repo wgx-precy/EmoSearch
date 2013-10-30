@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/name"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/appsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/signup"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:hint="@string/password" />
+	
+	<Button
+	    android:id="@+id/signup_button"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="20dp"
+	    android:onClick="viewTrip"
+	    android:text="@string/usersignup" />
+
+</LinearLayout>
