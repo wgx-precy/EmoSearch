@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.emosearch.MainActivity"
+            android:name="com.emosearch.activity.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,19 +23,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.emosearch.SignUpActivity"
+            android:name="com.emosearch.activity.SignUpActivity"
             android:label="@string/title_activity_sign_up" >
         </activity>
         <activity
-            android:name="com.example.emosearch.HomeActivity"
+            android:name="com.emosearch.activity.HomeActivity"
             android:label="@string/title_activity_home" >
         </activity>
         <activity
-            android:name="com.example.emosearch.PreferenceActivity"
+            android:name="com.emosearch.activity.PreferenceActivity"
             android:label="@string/title_activity_preference" >
         </activity>
         <activity
-            android:name="com.example.emosearch.FilterActivity"
+            android:name="com.emosearch.activity.FilterActivity"
             android:label="@string/title_activity_filter" >
         </activity>
     </application>

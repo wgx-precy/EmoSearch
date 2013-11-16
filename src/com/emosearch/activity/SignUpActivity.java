@@ -1,21 +1,23 @@
-package com.example.emosearch;
+package com.emosearch.activity;
+
+import com.example.emosearch.R;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-public class FilterActivity extends Activity {
+public class SignUpActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_filter);
+		setContentView(R.layout.activity_sign_up);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.filter, menu);
+		getMenuInflater().inflate(R.menu.sign_up, menu);
 		return true;
 	}
 
