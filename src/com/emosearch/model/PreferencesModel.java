@@ -2,15 +2,15 @@ package com.emosearch.model;
 
 public class PreferencesModel {
 
-	private String preferencesId;
+	private double preferencesId;
 	private String L1Id;
 	private String level2Id;
 	private String hsRating;
 	private String teRating;
-	public String getPreferencesId() {
+	public double getPreferencesId() {
 		return preferencesId;
 	}
-	public void setPreferencesId(String preferencesId) {
+	public void setPreferencesId(double preferencesId) {
 		this.preferencesId = preferencesId;
 	}
 	public String getL1Id() {

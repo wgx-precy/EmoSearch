@@ -1,10 +1,12 @@
 package com.emosearch.activity;
 
+import com.emosearch.helper.EmoSearchHelper;
 import com.example.emosearch.R;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.EditText;
 
 public class MainActivity extends Activity {
 
@@ -12,6 +14,16 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		EditText userNameText = (EditText)findViewById(R.id.username);
+		EditText passwordText = (EditText)findViewById(R.id.password);
+		
+		String userName = userNameText.toString();
+		String password = passwordText.toString();
+		
+		
+		
+		
 	}
 
 	@Override
