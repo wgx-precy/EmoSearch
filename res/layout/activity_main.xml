@@ -51,7 +51,7 @@
 		     android:layout_height="wrap_content"
 		     android:layout_gravity="center_horizontal"
 		     android:layout_marginRight="5dp"
-		     android:onClick="makeTrip"
+		     android:onClick="Home"
 		     android:text="@string/userlogin" />
 	
 	    <Button
@@ -59,8 +59,8 @@
 	        android:layout_width="100dp"
 	        android:layout_height="wrap_content"
 	        android:layout_gravity="center_horizontal|left"
-	        android:onClick="viewTrip"
-	        android:text="@string/usersignup" />
+	        android:onClick="SignUp"
+	        android:text="@string/signup" />
 	 </LinearLayout>
 
 </LinearLayout>

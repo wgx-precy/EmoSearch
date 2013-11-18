@@ -2,7 +2,9 @@ package com.example.emosearch;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 
 public class SignUpActivity extends Activity {
 
@@ -18,5 +20,11 @@ public class SignUpActivity extends Activity {
 		getMenuInflater().inflate(R.menu.sign_up, menu);
 		return true;
 	}
+    /** Called when the user clicks the Send button */
+    public void Home(View view) {
+    	Intent intent = new Intent(this, HomeActivity.class);
+    	startActivity(intent);
+        // Do something in response to button
+    }
 
 }
