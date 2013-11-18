@@ -1,4 +1,6 @@
-package com.example.emosearch;
+package com.emosearch.activity;
+
+import com.example.emosearch.R;
 
 import android.os.Bundle;
 import android.app.Activity;

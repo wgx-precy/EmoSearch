@@ -1,11 +1,18 @@
-package com.example.emosearch;
+package com.emosearch.activity;
+
+import com.emosearch.helper.EmoSearchHelper;
+import com.example.emosearch.R;
 
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
+<<<<<<< HEAD
 import android.view.View;
+=======
+import android.widget.EditText;
+>>>>>>> 47ee086b5a906c829836541823ddc604f5c5ec23
 
 public class MainActivity extends Activity {
 
@@ -13,6 +20,16 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		EditText userNameText = (EditText)findViewById(R.id.username);
+		EditText passwordText = (EditText)findViewById(R.id.password);
+		
+		String userName = userNameText.toString();
+		String password = passwordText.toString();
+		
+		
+		
+		
 	}
 	
     /** Called when the user clicks the Send button */
