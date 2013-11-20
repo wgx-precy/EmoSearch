@@ -1,5 +1,6 @@
 package com.emosearch.activity;
 
+
 import com.example.emosearch.R;
 
 import android.app.Activity;

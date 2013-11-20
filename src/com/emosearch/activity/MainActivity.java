@@ -1,18 +1,15 @@
 package com.emosearch.activity;
 
-import com.emosearch.helper.EmoSearchHelper;
 import com.example.emosearch.R;
+import com.emosearch.helper.EmoSearchHelper;
 
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
-<<<<<<< HEAD
 import android.view.View;
-=======
 import android.widget.EditText;
->>>>>>> 47ee086b5a906c829836541823ddc604f5c5ec23
 
 public class MainActivity extends Activity {
 
