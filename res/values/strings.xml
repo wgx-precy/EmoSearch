@@ -24,5 +24,7 @@
     <string name="level1_sports">sport</string>
     <string name="level1_travel">travel</string>
     <string name="title_activity_filter">FilterActivity</string>
+    <string name="title_activity_food">FoodActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
 
 </resources>

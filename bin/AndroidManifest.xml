@@ -23,19 +23,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.emosearch.activity.SignUpActivity"
+            android:name="com.example.emosearch.SignUpActivity"
             android:label="@string/title_activity_sign_up" >
         </activity>
         <activity
-            android:name="com.emosearch.activity.HomeActivity"
+            android:name="com.example.emosearch.activity.HomeActivity"
             android:label="@string/title_activity_home" >
         </activity>
         <activity
-            android:name="com.emosearch.activity.PreferenceActivity"
+            android:name="com.example.emosearch.activity.PreferenceActivity"
             android:label="@string/title_activity_preference" >
         </activity>
         <activity
-            android:name="com.emosearch.activity.FilterActivity"
+            android:name="com.example.emosearch.FilterActivity"
             android:label="@string/title_activity_filter" >
         </activity>
     </application>

@@ -5,58 +5,10 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 	
-	<Button
-	    android:id="@+id/level1_food"
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_gravity="center_horizontal"
-	    android:layout_marginTop="80dp"
-	    android:onClick="viewTrip"
-	    android:text="@string/level1_food" />
-
-	<Button
-	    android:id="@+id/level1_bar"
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_gravity="center_horizontal"
-	    android:layout_marginTop="-5dp"
-	    android:onClick="viewTrip"
-	    android:text="@string/level1_bar" />
-
-	<Button
-	    android:id="@+id/level1_shows"
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_gravity="center_horizontal"
-	    android:layout_marginTop="-5dp"
-	    android:onClick="viewTrip"
-	    android:text="@string/level1_shows" />
-
-	<Button
-	    android:id="@+id/level1_cinema"
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_gravity="center_horizontal"
-	    android:layout_marginTop="-5dp"
-	    android:onClick="viewTrip"
-	    android:text="@string/level1_cinema" />
-
-	<Button
-	    android:id="@+id/level1_sports"
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_gravity="center_horizontal"
-	    android:layout_marginTop="-5dp"
-	    android:onClick="viewTrip"
-	    android:text="@string/level1_sports" />
-
-	<Button
-	    android:id="@+id/level1_traverl"
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_gravity="center_horizontal"
-	    android:layout_marginTop="-5dp"
-	    android:onClick="viewTrip"
-	    android:text="@string/level1_travel" />
+    <ExpandableListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ExpandableListView>
 
 </LinearLayout>
