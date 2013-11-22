@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <Button
+	    android:id="@+id/level2_fast_food"
+	    android:layout_width="120dp"
+	    android:layout_height="60dp"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginLeft="5dp"
+	    android:onClick="foodresult"
+	    android:text="fast food" />
+    <Button
+	    android:id="@+id/level2_cake"
+	    android:layout_width="120dp"
+	    android:layout_height="60dp"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginLeft="5dp"
+	    android:onClick="foodresult"
+	    android:text="cake shop" />
+    <Button
+	    android:id="@+id/level2_street_vendor"
+	    android:layout_width="120dp"
+	    android:layout_height="60dp"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginLeft="5dp"
+	    android:onClick="foodresult"
+	    android:text="street vendors" />
+</LinearLayout>
