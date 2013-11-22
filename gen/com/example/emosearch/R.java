@@ -21,15 +21,17 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int emobackground=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int back=0x7f020000;
+        public static final int emobackground=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int action_settings=0x7f080018;
+        public static final int action_settings=0x7f08001a;
         public static final int appName=0x7f08000d;
         public static final int applogin=0x7f08000e;
-        public static final int appsignup=0x7f080014;
-        public static final int confirm_password=0x7f080015;
+        public static final int appsignup=0x7f080016;
+        public static final int button_map=0x7f080015;
+        public static final int confirm_password=0x7f080017;
         public static final int level1_bar=0x7f080001;
         public static final int level1_cinema=0x7f080003;
         public static final int level1_food=0x7f080000;
@@ -41,13 +43,14 @@ public final class R {
         public static final int level2_street_vendor=0x7f080008;
         public static final int listView=0x7f080013;
         public static final int login=0x7f080011;
+        public static final int logo=0x7f080014;
         public static final int password=0x7f080010;
         public static final int set_preference=0x7f080009;
         public static final int signup=0x7f080012;
-        public static final int signup_button=0x7f080016;
+        public static final int signup_button=0x7f080018;
         public static final int submit_search=0x7f08000c;
         public static final int textView=0x7f08000b;
-        public static final int textView1=0x7f080017;
+        public static final int textView1=0x7f080019;
         public static final int touchView=0x7f08000a;
         public static final int username=0x7f08000f;
     }
